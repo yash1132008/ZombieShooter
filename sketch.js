@@ -12,16 +12,16 @@ var blastS,loseS,winS;
 
 function preload(){
   bgImg=loadImage("assets/bg.jpeg");
-shooterImg=loadImage("assets/shooter_2.png");
-shooter_shooting=loadImage("assets/shooter_3.png");
-h1IMG = loadImage("assets/heart_1.png");
-h2IMG = loadImage("assets/heart_2.png");
-h3IMG = loadImage("assets/heart_3.png");
-zomIMG = loadImage("assets/zombie.png");
-bIMG = loadImage("assets/b1.jpg");
-blastS = loadSound("assets/explosion.mp3");
-loseS = loadSound("assets/lose.mp3");
-winS = loadSound("assets/win.mp3");
+shooterImg=loadImage("shooter_2.png");
+shooter_shooting=loadImage("shooter_3.png");
+h1IMG = loadImage("heart_1.png");
+h2IMG = loadImage("heart_2.png");
+h3IMG = loadImage("heart_3.png");
+zomIMG = loadImage("zombie.png");
+bIMG = loadImage("b1.jpg");
+blastS = loadSound("explosion.mp3");
+loseS = loadSound("lose.mp3");
+winS = loadSound("win.mp3");
 
 }
 
